@@ -23,6 +23,18 @@ namespace RestaurantMenu
             }
         }
 
+        public static void SayIfNew (DateTime RightNow)
+        {
+            DateTime date1 = DateTime.Now;
+            DateTime d2 = new DateTime(date1-1);
+
+            flag = DateTime.Equals(d1, d2);
+
+            if (flag == true)
+                Console.WriteLine("Given dates are equal");
+            else
+                Console.WriteLine("Given dates are not equal");
+        }
 
         public void ItemEntry(string ItemName, double Price, string Description, string Category)
         {
@@ -30,15 +42,9 @@ namespace RestaurantMenu
             this.price = Price;
             this.description = Description;
             this.category = Category;
-            Console.WriteLine($"{this.itemName}: ${this.price}\n{this.category}\n{this.description}");
+            Console.WriteLine($"{this.itemName}: ${this.price}\n{this.category}\n{this.description}\nItem Updated at: {rightNow}");
+            
         }
-
-
-
-    // list out all menu items
-    //code last updated
-
-    // this class return list/dictionary? 
 
 }
 }
