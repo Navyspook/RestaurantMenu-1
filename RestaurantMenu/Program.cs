@@ -7,7 +7,7 @@ namespace RestaurantMenu
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello!");
+            Console.WriteLine("Hello James!");
         }
     }
 }
