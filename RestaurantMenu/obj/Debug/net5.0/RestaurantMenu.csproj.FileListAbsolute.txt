@@ -1,0 +1,16 @@
+C:\Users\therr\Desktop\Visual-Studio\unit_1\chapter-18\chapter-18-studio\RestaurantMenu\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.csproj.AssemblyReference.cache
+C:\Users\therr\Desktop\Visual-Studio\unit_1\chapter-18\chapter-18-studio\RestaurantMenu\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\therr\Desktop\Visual-Studio\unit_1\chapter-18\chapter-18-studio\RestaurantMenu\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.AssemblyInfoInputs.cache
+C:\Users\therr\Desktop\Visual-Studio\unit_1\chapter-18\chapter-18-studio\RestaurantMenu\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.AssemblyInfo.cs
+C:\Users\therr\Desktop\Visual-Studio\unit_1\chapter-18\chapter-18-studio\RestaurantMenu\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.csproj.CoreCompileInputs.cache
+C:\Users\therr\Desktop\Visual-Studio\unit_1\chapter-18\chapter-18-studio\RestaurantMenu\RestaurantMenu\bin\Debug\net5.0\RestaurantMenu.exe
+C:\Users\therr\Desktop\Visual-Studio\unit_1\chapter-18\chapter-18-studio\RestaurantMenu\RestaurantMenu\bin\Debug\net5.0\RestaurantMenu.deps.json
+C:\Users\therr\Desktop\Visual-Studio\unit_1\chapter-18\chapter-18-studio\RestaurantMenu\RestaurantMenu\bin\Debug\net5.0\RestaurantMenu.runtimeconfig.json
+C:\Users\therr\Desktop\Visual-Studio\unit_1\chapter-18\chapter-18-studio\RestaurantMenu\RestaurantMenu\bin\Debug\net5.0\RestaurantMenu.runtimeconfig.dev.json
+C:\Users\therr\Desktop\Visual-Studio\unit_1\chapter-18\chapter-18-studio\RestaurantMenu\RestaurantMenu\bin\Debug\net5.0\RestaurantMenu.dll
+C:\Users\therr\Desktop\Visual-Studio\unit_1\chapter-18\chapter-18-studio\RestaurantMenu\RestaurantMenu\bin\Debug\net5.0\ref\RestaurantMenu.dll
+C:\Users\therr\Desktop\Visual-Studio\unit_1\chapter-18\chapter-18-studio\RestaurantMenu\RestaurantMenu\bin\Debug\net5.0\RestaurantMenu.pdb
+C:\Users\therr\Desktop\Visual-Studio\unit_1\chapter-18\chapter-18-studio\RestaurantMenu\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.dll
+C:\Users\therr\Desktop\Visual-Studio\unit_1\chapter-18\chapter-18-studio\RestaurantMenu\RestaurantMenu\obj\Debug\net5.0\ref\RestaurantMenu.dll
+C:\Users\therr\Desktop\Visual-Studio\unit_1\chapter-18\chapter-18-studio\RestaurantMenu\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.pdb
+C:\Users\therr\Desktop\Visual-Studio\unit_1\chapter-18\chapter-18-studio\RestaurantMenu\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.genruntimeconfig.cache
