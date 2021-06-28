@@ -8,37 +8,42 @@ namespace RestaurantMenu
 {
     class MenuItem
     {
-        public string itemName { get; set; }
-        public double price { get; set; }
-        public string description { get; set; }
-        public string category { get; set; }
+        public string ItemName { get; set; }
+        public double Price { get; set; }
+        public string Description { get; set; }
+        public string Category { get; set; }
 
+        public string New { get; set; }
+        //DateTime rightNow { get; set; }
 
-        public DateTime rightNow
+        public MenuItem(string itemname, double price, string description, string category)
         {
-            get
-            {
-                DateTime date1 = DateTime.Now;
-                return date1;
-            }
+            this.ItemName = itemname;
+            this.Price = price;
+            this.Description = description;
+            this.Category = category;
+
+        }
+        public MenuItem(string itemname, double price, string description, string category, string newOrNot)
+        {
+            this.ItemName = itemname;
+            this.Price = price;
+            this.Description = description;
+            this.Category = category;
+            this.New = newOrNot;
+        }
+        public void ItemEntry()
+        {
+            Console.WriteLine($"{this.ItemName}: ${this.Price}\n{this.Category}\n{this.Description}\n{this.New}");
+
         }
 
 
-        public void ItemEntry(string ItemName, double Price, string Description, string Category)
-        {
-            this.itemName = ItemName;
-            this.price = Price;
-            this.description = Description;
-            this.category = Category;
-            Console.WriteLine($"{this.itemName}: ${this.price}\n{this.category}\n{this.description}");
-        }
 
+        // list out all menu items
+        //code last updated
 
+        // this class return list/dictionary? 
 
-    // list out all menu items
-    //code last updated
-
-    // this class return list/dictionary? 
-
-}
+    }
 }
