@@ -17,30 +17,39 @@ namespace RestaurantMenu
         
         public DateTime TimeDate { get; set; }
 
+        public List<string> listOfNames = new List<string> { };
+
+/*        public void AddMenuItems()
+        {
+            this.listOfMenuItems.Add();
+        }*/
+
+
         public MenuItem(string itemname, double price, string description, string category)
         {
             this.ItemName = itemname;
             this.Price = price;
             this.Description = description;
             this.Category = category;
-            this.TimeDate = DateTime.Now;
         }
+
         public MenuItem(string itemname, double price, string description, string category, string newOrNot)
         {
             this.ItemName = itemname;
             this.Price = price;
             this.Description = description;
             this.Category = category;
-            this.New = newOrNot;
-            this.TimeDate = DateTime.Now;
-            
-
+            this.New = newOrNot;      
+            this.listOfNames.Add(itemname);
         }
+
+
+
         public string ItemEntry()
         {
 
             Console.WriteLine();
-            return $"___________________________________________\n{this.ItemName}: ${this.Price}\n{this.Category}\n{this.Description}\n{this.New}\nAdded on:{TimeDate}\n___________________________________________";
+            return $"___________________________________________\n{this.ItemName}: ${this.Price}\n{this.Category}\n{this.Description}\n{this.New}\n___________________________________________";
   
 
         }
