@@ -1,15 +1,15 @@
 ﻿
 using System;
-
+using System.Collections.Generic;
 namespace RestaurantMenu
 {
     class Program
     {
         static void Main(string[] args)
         {
-            MenuItem cheeseballs = new MenuItem();
-            cheeseballs.ItemEntry("Cheese balls", 5.50, "yummy yummy cheese balls", "lunch");
-
+            Menu menu = new Menu();
+            menu.PrintMenu();
         }
     }
 }
+
